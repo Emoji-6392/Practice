@@ -1,0 +1,101 @@
+.ex7-row-1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.ex7-row-2 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.exercise-10a  {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.exercise-10b {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.luf-ex7 {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 1000px;
+}
+
+.pfp-ex7  {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.details-ex7  {
+  text-align: left;
+  width: 225px;
+  line-height: 10px;
+}
+
+.name-ex7 {
+  font-weight: bold;
+}
+
+.work-ex7, .worth-ex7  {
+  color: grey;
+}
+
+.follow-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.follow-button:hover {
+  cursor: pointer;
+}
+
+.profile-1, .profile-2, .profile-3 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.ex7-pfp-1, .ex7-pfp-2, .ex7-pfp-3 {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10x;
+}
+
+.mutual-frnd {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100px;
+}
+
+.ex7-frnd-status {
+  display: flex;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.ex7-frnd-status p  {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-left: 5px;
+}

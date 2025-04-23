@@ -1,0 +1,15 @@
+body button:hover {
+  cursor: pointer;
+}
+
+.exercise-1, .exercise-2, .exercise-3, .exercise-4, .exercise-5, .exercise-6, .exercise-7, .exercise-8, .exercise-9, .exercise-10, .exercise-11 {
+  margin-top: 10px;
+  text-align: center;
+  border-style: solid;
+  border-color: grey;
+  font-family: Arial;
+}
+
+.exercise-3 button:hover {
+  cursor: pointer;
+}

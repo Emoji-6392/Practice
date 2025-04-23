@@ -1,0 +1,55 @@
+.ex8-row-1, .ex8-row-2 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.ex8-row-1 {
+  padding-bottom: 50px;
+}
+
+.ex8-row-2 {
+  padding-top: 50px;
+}
+
+.ex8-email {
+  text-align: left;
+}
+
+.email-ex8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.email-ex8 div {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ex8-email-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.ex8-email-content p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ex8-email-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ex8-email-heading p {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ex8-multi-email {
+  display: flex;
+  flex-direction: column;
+}

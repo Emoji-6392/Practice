@@ -1,0 +1,174 @@
+.ex5-row-1, .ex5-row-3 {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.ex5-row-1 {
+  margin-bottom: 50px;
+}
+
+.ex5-row-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.ex5-row-3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.email-form,  .feedback, .sign-up-form, .uber-request-form {
+  flex: 1;
+}
+
+.form-name, .form-email {
+  display: block;
+  border-radius: 3px;
+  border-style: solid;
+  margin-left: 300px;
+}
+
+.form-name {
+  margin-bottom: 2px;
+}
+
+.feedback button:hover {
+  cursor: pointer;
+}
+
+.feedback-text {
+  display: inline-block;
+  width: 200px;
+  vertical-align: middle;
+}
+
+.google-logo {
+  text-align: center;
+}
+
+.extra-google-buttons {
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.extra-google-buttons button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.extra-google-buttons button:hover {
+  cursor: pointer;
+ }
+
+.g-align {
+  text-align: center;
+}
+
+.sign-up-form {
+  text-align: center;
+}
+
+.sign-up-form, .uber-request-form {
+  flex: 1;
+}
+
+.first-name,  .last-name, .sign-up-email {
+  display: inline-block;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.25);
+  border-style: solid;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.first-name,  .last-name {
+  width: 100px;
+}
+
+.sign-up-email {
+  width: 219px;
+}
+
+.sign-up-button {
+  border: none;
+  border-radius: 5px;
+  width: 230px;
+  background-color: rgb(47, 127, 231);
+  color: white;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+}
+
+.sign-up-align {
+  text-align: center;
+}
+
+.sign-up-align button {
+  cursor: pointer;
+}
+
+.uber-request-form button:hover {
+  cursor: pointer;
+}
+
+.uber-align {
+  text-align: center;
+}
+
+.uber-text {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.uber-1, .uber-2 {
+  border: none;
+  background-color: rgb(236, 236, 236);
+
+  display:  block;
+  width: 300px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+
+  margin-left: 196.999995px;
+  margin-bottom: 10px;
+}
+
+.uber-2 {
+  margin-bottom: 24px;
+}
+
+.uber-request-1 {
+  border: none;
+  background-color: black;
+  color: white;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+
+  margin-right: 10px;
+}
+
+.uber-request-2 {
+  border: none;
+  background-color: rgb(231, 231, 231);
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+}

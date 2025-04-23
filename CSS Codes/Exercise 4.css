@@ -1,0 +1,149 @@
+.ex4-row-1, .ex4-row-2, .ex4-row-3 {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.ex4-row-1 {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.ex4-row-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+}
+
+.ex4-row-3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.img-1, .img-2, .img-3, .ex4-round, .ex4-google-searchbar {
+  flex: 1;
+}
+
+.luf1 {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.luf2, .luf3, .luf4  {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.luf3, .luf4 {
+  border-radius: 1000px;
+}
+
+.luf4 {
+  margin-right: 15px;
+  width: 75px;
+  height: 75px;
+}
+
+.round {
+  font-size: 20px;
+  border-width: 1px;
+  border-color: rgb(200, 200, 200);
+  border-radius: 3px;
+  border-style: solid;
+  width: 150px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+}
+
+.google-searchbar {
+  border-radius: 1000px;
+  width: 500px;
+  border: none;
+  box-shadow: 0px  1px 5px rgba(0, 0, 0, 0.25);
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.email-word {
+  margin-right: 361px;
+}
+
+.linkedin-signup, .tweeetbox {
+  flex: 1;
+}
+
+.email-word, .disclaimer {
+  color: rgb(109, 109, 109);
+}
+
+.email-entry {
+  border-width: 1px;
+  border-style: solid;
+  width: 395px;
+  height: 29px;
+}
+
+.linkedin-signup-button {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-size: 16px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 400px;
+}
+
+.linkedin-signup-button:hover {
+  cursor: pointer;
+}
+
+.tweet, .tweet-box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.tweet-box {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  border-radius: 6px;
+}
+
+.tweet-status {
+  text-align: left;
+  flex: 1;
+  color: rgb(112, 112, 112);
+}
+
+.tweet-confirm {
+  flex: 1;
+}
+
+.tweet-confirm button:hover {
+  cursor: pointer;
+}
+
+.tweet-button  {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+}

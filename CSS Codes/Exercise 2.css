@@ -1,0 +1,58 @@
+.amazon-order {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.amazon-button-use, .amazon-request:hover {
+  cursor: pointer;
+}
+
+.amazon-item  {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.item-stats {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.delivery-stats {
+  font-weight: bold;
+}
+
+.amazon-button-use {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 100px;
+}
+
+.amazon-button-use:hover {
+  background-color: rgb(228, 195, 32);
+}
+
+.amazon-button-use:active {
+  opacity: 0.85;
+}
+
+.amazon-request {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 100px;
+}
+
+.amazon-request:hover {
+  background-color: rgb(243, 152, 14);
+}
+
+.amazon-request:active {
+  opacity: 0.75;
+}
